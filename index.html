@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raza Game's Registration Form</title>
+  </head>
+  <body>
+    <h1>Game Tournament Registration Form</h1>
+    <p>Enter your information below to register for our gaming tournament!</p>
+    <form action="#" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="name" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <br>
+        <label for="gamerTag">GamerTag or Username</label>
+        <input type="text" name="gamerTag" id="gamerTag" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" required>Male</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <label><input type="radio" name="gender" value="other" required>Other</label>
+        </fieldset>
+        <br>
+        <h2>Registration type:</h2>
+        <label><input type="checkbox" name="registrationType">Individual</label>
+        <label><input type="checkbox" name="registrationType">Team</label>
+        <br>
+        <br>
+        <label for="gameTitle">Game Title</label>
+        <input type="text" name="gameTitle" id="gameTitle" required>
+        <br>
+        <br>
+        <h2>Gaming Platform:</h2>
+        <label><input type="checkbox" name="platform" required>PC</label>
+        <label><input type="checkbox" name="platform" required>Xbox</label>
+        <label><input type="checkbox" name="platform" required>Playstation</label>
+        <br>
+        <br>
+        <h3>Agreement:</h3>
+        <label><input type="checkbox" name="agreement" required><p>By checking this box, I confirm that I have read, understood and agree to comply with all the terms and regualtions. I acknowledge that failure to do so will result in an automatic disqualification.</p></label>
+        <br>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
